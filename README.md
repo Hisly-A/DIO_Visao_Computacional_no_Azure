@@ -79,7 +79,7 @@ Revise os resultados da segunda imagem. Deve retornar o texto e as caixas delimi
 
 Em um navegador da web, navegue até Vision Studio.
 
-Na página **Getting started with Vision**, clique em **Image analysis** e, em seguida, no bloco **Add captions to images**.
+Na página **Get started with Vision**, clique em **Image analysis** e, em seguida, no bloco **Add captions to images**.
 
 Em **Try it out**, reconheça a política de uso de recursos lendo e marcando a caixa.
 
@@ -132,14 +132,14 @@ Na caixa **Detected attributes**, observe a lista de objetos detectados e suas p
 
 Passe o cursor do mouse sobre os objetos na lista **Detected attributes** para destacar a caixa delimitadora do objeto na imagem.
 
-Mova o controle deslizante Valor limite até que um valor de 70 seja exibido à direita do controle deslizante. Observe o que acontece com os objetos da lista. O controle deslizante de limite especifica que somente objetos identificados com uma pontuação de confiança ou probabilidade maior que o limite devem ser exibidos.
+Mova o controle deslizante **Threshold value** até que um valor de 70 seja exibido à direita do controle deslizante. Observe o que acontece com os objetos da lista. O controle deslizante de limite especifica que somente objetos identificados com uma pontuação de confiança ou probabilidade maior que o limite devem ser exibidos.
 
 
 
 ## Excluir os recursos utilizados nos testes
 
 Abra o portal do Azure em https://portal.azure.com e selecione o grupo de recursos que contém o recurso que você criou.
-Selecione o recurso e selecione Excluir e depois Sim para confirmar. O recurso é então excluído.
+Selecione o recurso e clique em ```Delete``` e depois ```Yes``` para confirmar. O recurso é então excluído.
 
 
 
@@ -147,10 +147,10 @@ Selecione o recurso e selecione Excluir e depois Sim para confirmar. O recurso �
 
 ## Links utilizados
 
-- <https://learn.microsoft.com/pt-br/azure/ai-services/computer-vision/overview>
+- https://learn.microsoft.com/pt-br/azure/ai-services/computer-vision/overview
 
-- (https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html)
+- https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html
 
-- (https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/04-face.html)
+- https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/04-face.html
 
-- (https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html)
+- https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html
