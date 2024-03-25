@@ -12,13 +12,15 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 
 Abra o portal do Azure em https://portal.azure.com, entrando com a conta da Microsoft associada à sua assinatura do Azure.
 
-Clique em ```＋Create a resource``` e pesquise por **Azure AI services**. Clique em ```create``` para criar um plano do **Azure AI services** e configure-o da seguinte forma:
+Clique em ```＋Create a resource``` e pesquise por **Azure AI services**. 
+
+Clique em ```create``` para criar um plano do **Azure AI services** e configure-o da seguinte forma:
 - *Subscription*: Sua assinatura do Azure.
 - *Resource group*: Selecione ou crie um grupo de recursos com um nome exclusivo.
 - *Region*: Leste dos EUA.
 - *Name*: Insira um nome exclusivo.
 - *Pricing tier*: Padrão S0.
-- *Marque o campo*: I acknowledge that I have read and understood all the terms below.
+- *Marque o campo*: By checking this box I acknowledge that I have read and understood all the terms below.
 
 Clique em ```Review + create``` e depois ```Create``` e aguarde a conclusão da implantação.
 
@@ -37,9 +39,9 @@ Feche a página de configurações.
 ## Detecte rostos no Vision Studio
 Num navegador web, acesse o Vision Studio em https://portal.vision.cognitive.azure.com.
 
-Na página inicial **Getting started with Vision**, clique na guia Face e, em seguida, clique no bloco **Detect Faces in an image**.
+Na página inicial **Get started with Vision**, clique na guia **Face** e, em seguida, clique no bloco **Detect Faces in an image**.
 
-No subtítulo **Try It Out**, reconheça a política de uso de recursos lendo e marcando a caixa.
+No subtítulo **Try it out**, reconheça a política de uso de recursos lendo e marcando a caixa.
 
 Selecione cada uma das imagens de amostra e observe os dados de detecção facial retornados.
 
@@ -53,9 +55,9 @@ Faça upload de store-camera-3.jpg e revise os detalhes de detecção de rosto r
 ## Extraia texto de imagens no Vision Studio
 Acesse o Vision Studio em https://portal.vision.cognitive.azure.com.
 
-Na página inicial **Getting started with Vision**, clique em **Optical character recognition** e, em seguida, no bloco **Extract text from images**.
+Na página inicial **Get started with Vision**, clique em **Optical character recognition** e, em seguida, no bloco **Extract text from images**.
 
-No subtítulo **Try It Out**, reconheça a política de uso de recursos lendo e marcando a caixa.
+No subtítulo **Try it out**, reconheça a política de uso de recursos lendo e marcando a caixa.
 
 Selecione https://aka.ms/mslearn-ocr-images para baixar ocr-images.zip . Em seguida, abra a pasta.
 
@@ -67,7 +69,7 @@ Na imagem, a localização do texto é indicada por uma caixa delimitadora, conf
 
 Agora você pode tentar outra imagem. Selecione Procurar um arquivo e navegue até a pasta onde você salvou os arquivos do GitHub. Selecione carta.jpg .
 
-Uma imagem de uma carta digitada.
+
 
 Revise os resultados da segunda imagem. Deve retornar o texto e as caixas delimitadoras do texto. Se você tiver tempo, tente note.jpg e recibo.jpg .
 
@@ -79,7 +81,7 @@ Em um navegador da web, navegue até Vision Studio.
 
 Na página **Getting started with Vision**, clique em **Image analysis** e, em seguida, no bloco **Add captions to images**.
 
-Em **Try It Out**, reconheça a política de uso de recursos lendo e marcando a caixa.
+Em **Try it out**, reconheça a política de uso de recursos lendo e marcando a caixa.
 
 Abra a pasta do computador e localize uma imagem, para este exercício foi utilizada a seguinte imagem:
 
