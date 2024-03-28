@@ -12,7 +12,11 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 
 Abra o portal do Azure em https://portal.azure.com, entrando com a conta da Microsoft associada à sua assinatura do Azure.
 
-Clique em ```＋Create a resource``` e pesquise por **Azure AI services**. 
+Clique em ```＋Create a resource``` e pesquise por **Azure AI services**.
+
+<div align="center">
+    <img width="700" title="VC01" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC01.PNG"/>
+</div>
 
 Clique em ```create``` para criar um plano do **Azure AI services** e configure-o da seguinte forma:
 - *Subscription*: Sua assinatura do Azure.
@@ -22,7 +26,27 @@ Clique em ```create``` para criar um plano do **Azure AI services** e configure-
 - *Pricing tier*: Padrão S0.
 - *Marque o campo*: By checking this box I acknowledge that I have read and understood all the terms below.
 
+<div align="center">
+    <img width="700" title="VC02" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC02.PNG"/>
+</div>
+<br>
+<div align="center">
+    <img width="700" title="VC03" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC03.PNG"/>
+</div>
+<br>
+<div align="center">
+    <img width="700" title="VC04" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC04.PNG"/>
+</div>
+
 Clique em ```Review + create``` e depois ```Create``` e aguarde a conclusão da implantação.
+
+<div align="center">
+    <img width="700" title="VC05" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC05.PNG"/>
+</div>
+<br>
+<div align="center">
+    <img width="700" title="VC06" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC06.PNG"/>
+</div>
 
 ## Conecte seu recurso de serviço de IA do Azure ao Vision Studio
 
@@ -30,9 +54,17 @@ Acesse Vision Studio em https://portal.vision.cognitive.azure.com.
 
 Entre com sua conta e certifique-se de usar o mesmo diretório onde você criou seu recurso de serviços de IA do Azure.
 
-Na página inicial do Vision Studio, clique em ```View all resources``` no título **Getting started with Vision**.
+Na página inicial do Vision Studio, clique em ```View all resources``` no título **Get started with Vision**.
+
+<div align="center">
+    <img width="700" title="VC07" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC07.PNG"/>
+</div>
 
 Na página **Select a resource to work with**, marque o recurso criado e clique em ```Select as default resource```.
+
+<div align="center">
+    <img width="700" title="VC08" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC08.PNG"/>
+</div>
 
 Feche a página de configurações.
 
@@ -41,13 +73,42 @@ Num navegador web, acesse o Vision Studio em https://portal.vision.cognitive.azu
 
 Na página inicial **Get started with Vision**, clique na guia **Face** e, em seguida, clique no bloco **Detect Faces in an image**.
 
+<div align="center">
+    <img width="700" title="VC09" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC09.PNG"/>
+</div>
+<br>
+<div align="center">
+    <img width="700" title="VC10" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC10.PNG"/>
+</div>
+
 No subtítulo **Try it out**, reconheça a política de uso de recursos lendo e marcando a caixa.
 
-Selecione cada uma das imagens de amostra e observe os dados de detecção facial retornados.
+<div align="center">
+    <img width="700" title="VC11" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC11.PNG"/>
+</div>
 
-Agora vamos tentar com algumas de nossas próprias imagens.
+Com uma das imagens de amostra selecionada observe os dados de detecção facial retornados.
 
-Faça upload de imagens e revise os detalhes de detecção de rosto retornados.
+<div align="center">
+    <img width="700" title="VC12" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC12.PNG"/>
+</div>
+
+Agora observe que para a [imagem01](https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/inputs/imagem01.jpg) não foi possível reconhecer uma face:
+
+<div align="center">
+    <img width="700" title="VC13" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC13.PNG"/>
+</div>
+<br>
+<div align="center">
+    <img width="700" title="VC14" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC14.PNG"/>
+</div>
+
+Já na imagem abaixo foi possível reconhecer a face do cachorro:
+
+<br>
+<div align="center">
+    <img width="700" title="VC15" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC15.PNG"/>
+</div>
 
 Faça upload de store-camera-3.jpg e revise os detalhes de detecção de rosto retornados. Observe como o Azure AI Face não detectou o rosto que está obscurecido.
 
