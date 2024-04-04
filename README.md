@@ -1,6 +1,7 @@
 # DIO - Visão Computacional no Azure
 Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 
+
 ## 🔎 O que é o Azure Vision Studio?	
 
 >O Vision Studio é um conjunto de ferramentas baseadas em interface do usuário que permitem explorar, compilar e integrar recursos do Azure AI Vision. O serviço do Azure AI Vision lhe dá acesso a algoritmos avançados que processam imagens e retornam informações com base nos recursos visuais do seu interesse. Os serviços oferecidos são: OCR (reconhecimento óptico de caracteres), Análise de imagens, Detecção Facial e Análise de Vídeo.
@@ -48,11 +49,12 @@ Clique em ```Review + create``` e depois ```Create``` e aguarde a conclusão da 
     <img width="700" title="VC06" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC06.PNG"/>
 </div>
 
+
 ## Conecte seu recurso de serviço de IA do Azure ao Vision Studio
 
-Acesse Vision Studio em https://portal.vision.cognitive.azure.com.
+Acesse **Vision Studio** em https://portal.vision.cognitive.azure.com.
 
-Entre com sua conta e certifique-se de usar o mesmo diretório onde você criou seu recurso de serviços de IA do Azure.
+Entre com sua conta e certifique-se de usar o mesmo diretório onde foi criado o recurso de serviços de IA do Azure.
 
 Na página inicial do Vision Studio, clique em ```View all resources``` no título **Get started with Vision**.
 
@@ -66,10 +68,9 @@ Na página **Select a resource to work with**, marque o recurso criado e clique 
     <img width="700" title="VC08" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC08.PNG"/>
 </div>
 
-Feche a página de configurações.
 
 ## Detecte rostos no Vision Studio
-Num navegador web, acesse o Vision Studio em https://portal.vision.cognitive.azure.com.
+Num navegador web, acesse o **Vision Studio** em https://portal.vision.cognitive.azure.com.
 
 Na página inicial **Get started with Vision**, clique na guia **Face** e, em seguida, clique no bloco **Detect Faces in an image**.
 
@@ -105,96 +106,168 @@ Agora observe que para a [imagem01](https://github.com/Hisly-A/DIO_Visao_Computa
 
 Já na imagem abaixo foi possível reconhecer a face do cachorro:
 
-<br>
 <div align="center">
     <img width="700" title="VC15" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC15.PNG"/>
 </div>
 
-Faça upload de store-camera-3.jpg e revise os detalhes de detecção de rosto retornados. Observe como o Azure AI Face não detectou o rosto que está obscurecido.
+Na [imagem03](https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/inputs/imagem03.jpg) foi possível reconhecer o rosto das pessoas, mas não dos cães.
+
+<div align="center">
+    <img width="700" title="VC16" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC16.PNG"/>
+</div>
 
 
 ## Extraia texto de imagens no Vision Studio
-Acesse o Vision Studio em https://portal.vision.cognitive.azure.com.
+Acesse o **Vision Studio** em https://portal.vision.cognitive.azure.com.
 
 Na página inicial **Get started with Vision**, clique em **Optical character recognition** e, em seguida, no bloco **Extract text from images**.
 
-No subtítulo **Try it out**, reconheça a política de uso de recursos lendo e marcando a caixa.
+<div align="center">
+    <img width="700" title="VC17" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC17.PNG"/>
+</div>
 
-Selecione https://aka.ms/mslearn-ocr-images para baixar ocr-images.zip . Em seguida, abra a pasta.
+No subtítulo **Try it out**, reconheça a política de uso de recursos lendo e marcando a caixa e em seguida clique em ```Browse for a file``` e navegue até a pasta do computador onde a imagem foi salva, selecione-a e clique em ```Open```.
 
-No portal, clique em ```Browse for a file``` e navegue até a pasta do computador onde a imagem foi salva, selecione-a e clique em ```Open```.
+<div align="center">
+    <img width="700" title="VC18" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC18.PNG"/>
+</div>
 
-Agora revise o que é retornado:
 Em **Detected attributes**, qualquer texto encontrado na imagem é organizado em uma estrutura hierárquica de regiões, linhas e palavras.
-Na imagem, a localização do texto é indicada por uma caixa delimitadora, conforme mostrado aqui:
 
-Agora você pode tentar outra imagem. Selecione Procurar um arquivo e navegue até a pasta onde você salvou os arquivos do GitHub. Selecione carta.jpg .
+<div align="center">
+    <img width="700" title="VC20" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC20.PNG"/>
+</div>
 
+A localização do texto é indicada por uma caixa delimitadora, conforme a imagem abaixo:
 
+<div align="center">
+    <img width="700" title="VC21" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC21.PNG"/>
+</div>
 
-Revise os resultados da segunda imagem. Deve retornar o texto e as caixas delimitadoras do texto. Se você tiver tempo, tente note.jpg e recibo.jpg .
+Observe alguns detalhes do JSON gerado para uma das imagens:
 
+<div align="center">
+    <img width="700" title="VC19" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC19.PNG"/>
+</div>
 
 
 ## Gerar legendas para uma imagem
 
-Em um navegador da web, navegue até Vision Studio.
-
 Na página **Get started with Vision**, clique em **Image analysis** e, em seguida, no bloco **Add captions to images**.
+
+<div align="center">
+    <img width="700" title="VC22" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC22.PNG"/>
+</div>
+<br>
+<div align="center">
+    <img width="700" title="VC23" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC23.PNG"/>
+</div>
 
 Em **Try it out**, reconheça a política de uso de recursos lendo e marcando a caixa.
 
-Abra a pasta do computador e localize uma imagem, para este exercício foi utilizada a seguinte imagem:
+<div align="center">
+    <img width="700" title="VC24" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC24.PNG"/>
+</div>
 
-Carregue a imagem arrastando-a para a caixa **Drag and drop files here** ou navegando até ela em seu sistema de arquivos.
+Abra a pasta do computador, localize e carregue a imagem arrastando-a para a caixa **Drag and drop files here** ou navegando até ela em seu sistema de arquivos.
 
-Observe o texto da legenda gerado, visível no painel **Detected attributes** à direita da imagem.
+Observe o texto da legenda gerado, visível no painel **Detected attributes** à direita da imagem:
+
+<div align="center">
+    <img width="700" title="VC25" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC25.PNG"/>
+</div>
+
+Observe o detalhe do JSON gerado para a imagem:
+
+<div align="center">
+    <img width="700" title="VC26" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC26.PNG"/>
+</div>
 
 A funcionalidade Caption fornece uma única frase em inglês legível que descreve o conteúdo da imagem.
 
 Em seguida, use a mesma imagem para realizar legendas densas. Retorne à página inicial do Vision Studio e, como fez antes, clique em **Image analysis** e, em seguida, no bloco **Dense captioning**.
 
+<div align="center">
+    <img width="700" title="VC27" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC27.PNG"/>
+</div>
+<br>
+<div align="center">
+    <img width="700" title="VC28" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC28.PNG"/>
+</div>
+
 O recurso Dense Captions difere do recurso Caption porque fornece diversas legendas legíveis para uma imagem, uma descrevendo o conteúdo da imagem e outras, cada uma cobrindo os objetos essenciais detectados na imagem. Cada objeto detectado inclui uma caixa delimitadora, que define as coordenadas dos pixels na imagem associada ao objeto.
 
-Passe o mouse sobre uma das legendas na lista de atributos detectados e observe o que acontece na imagem.
+<div align="center">
+    <img width="700" title="VC29" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC29.PNG"/>
+</div>
+<br>
+<div align="center">
+    <img width="700" title="VC30" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC30.PNG"/>
+</div>
 
+Mova o cursor do mouse sobre as legendas da lista e observe como a caixa delimitadora muda na imagem para destacar a parte da imagem usada para gerar a legenda:
 
-
-Mova o cursor do mouse sobre as outras legendas da lista e observe como a caixa delimitadora muda na imagem para destacar a parte da imagem usada para gerar a legenda.
-
-
+<div align="center">
+    <img width="700" title="VC31" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC31.PNG"/>
+</div>
 
 
 ## Marcando imagens
+
 Retorne à página inicial do Vision Studio e clique no bloco **Extract common tags from images** na guia **Image analysis**.
+
+<div align="center">
+    <img width="700" title="VC32" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC32.PNG"/>
+</div>
 
 Em **Choose the model you want to try out**, deixe selecionado **Prebuilt product vs. gap model**. Em **Choose your language**, selecione Inglês ou um idioma de sua preferência.
 
-Abra a pasta que contém as imagens que você baixou e localize o arquivo chamado store-image-2.jpg , que se parece com isto:
+<div align="center">
+    <img width="700" title="VC33" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC33.PNG"/>
+</div>
 
+Carregue uma imagem e revise a lista de tags extraídas da imagem e a pontuação de confiança de cada uma no painel de atributos detectados. Aqui, a pontuação de confiança é a probabilidade de o texto do atributo detectado descrever o que realmente está na imagem.
 
-Carregue o arquivo store-camera-2.jpg .
-
-Revise a lista de tags extraídas da imagem e a pontuação de confiança de cada uma no painel de atributos detectados. Aqui, a pontuação de confiança é a probabilidade de o texto do atributo detectado descrever o que realmente está na imagem. Observe na lista de tags que ela inclui não apenas objetos, mas ações, como compras, vendas e permanência.
+<div align="center">
+    <img width="700" title="VC34" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC34.PNG"/>
+</div>
+<br>
+<div align="center">
+    <img width="700" title="VC35" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC35.PNG"/>
+</div>
 
 
 ## Detecção de objetos
 
 Retorne à página inicial do Vision Studio e clique no bloco **Detect common objects in images** na guia **Image analysis**.
 
+<div align="center">
+    <img width="700" title="VC36" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC36.PNG"/>
+</div>
+
 Em **Choose the model you want to try out**, deixe selecionado **Prebuilt product vs. gap model**.
 
-Abra a pasta que contém as imagens que você baixou e localize o arquivo chamado store-camera-3.jpg , que se parece com isto:
+<div align="center">
+    <img width="700" title="VC37" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC37.PNG"/>
+</div>
 
-
-Carregue o arquivo store-camera-3.jpg .
-
-Na caixa **Detected attributes**, observe a lista de objetos detectados e suas pontuações de confiança.
+Carregue uma imagem e na caixa **Detected attributes**, observe a lista de objetos detectados e suas pontuações de confiança.
 
 Passe o cursor do mouse sobre os objetos na lista **Detected attributes** para destacar a caixa delimitadora do objeto na imagem.
 
+<div align="center">
+    <img width="700" title="VC38" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC38.PNG"/>
+</div>
+
 Mova o controle deslizante **Threshold value** até que um valor de 70 seja exibido à direita do controle deslizante. Observe o que acontece com os objetos da lista. O controle deslizante de limite especifica que somente objetos identificados com uma pontuação de confiança ou probabilidade maior que o limite devem ser exibidos.
 
+<div align="center">
+    <img width="700" title="VC39" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC39.PNG"/>
+</div>
+<br>
+<div align="center">
+    <img width="700" title="VC40" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC40.PNG"/>
+</div>
 
 
 ## Excluir os recursos utilizados nos testes
