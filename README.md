@@ -94,7 +94,7 @@ Com uma das imagens de amostra selecionada observe os dados de detecção facial
     <img width="700" title="VC12" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC12.PNG"/>
 </div>
 
-Agora observe que para a [imagem01](https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/inputs/imagem01.jpg) não foi possível reconhecer uma face:
+Agora observe que para a [`imagem01`](https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/inputs/imagem01.jpg) não foi possível reconhecer uma face:
 
 <div align="center">
     <img width="700" title="VC13" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC13.PNG"/>
@@ -110,7 +110,7 @@ Já na imagem abaixo foi possível reconhecer a face do cachorro:
     <img width="700" title="VC15" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC15.PNG"/>
 </div>
 
-Na [imagem03](https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/inputs/imagem03.jpg) foi possível reconhecer o rosto das pessoas, mas não dos cães.
+Na [`imagem03`](https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/inputs/imagem03.jpg) foi possível reconhecer o rosto das pessoas, mas não dos cães.
 
 <div align="center">
     <img width="700" title="VC16" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC16.PNG"/>
