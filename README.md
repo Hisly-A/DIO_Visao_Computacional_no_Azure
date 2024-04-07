@@ -288,22 +288,22 @@ Mova o controle deslizante **Threshold value** até que um valor de 70 seja exib
     <img width="700" title="VC39" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC39.PNG"/>
 </div>
 <br>
-<div align="center">
-    <img width="700" title="VC40" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC40.PNG"/>
-</div>
-<br>
 
 ## Excluir os recursos utilizados nos testes
 
 Abra o portal do [`Azure`](https://portal.azure.com) e selecione o grupo de recursos que contém o recurso criado.
 
 <div align="center">
-    <img width="700" title="VC41" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC41.PNG"/>
+    <img width="700" title="VC40" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC40.PNG"/>
 </div>
 <br>
 
-Selecione o recurso e clique em `Delete` e depois `Delete` novamente para confirmar.
+Selecione o recurso e clique em `Delete resource group` e depois `Delete` novamente para confirmar.
 
+<div align="center">
+    <img width="700" title="VC41" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC41.PNG"/>
+</div>
+<br>
 <div align="center">
     <img width="700" title="VC42" src="https://github.com/Hisly-A/DIO_Visao_Computacional_no_Azure/blob/main/output/VC42.PNG"/>
 </div>
